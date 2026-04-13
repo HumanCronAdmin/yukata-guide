@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>YukataGuide - Wear the Summer</title>
+<meta name="description" content="A curated database of Japanese yukata, obi, geta, and accessories for international buyers. Sizing, materials, and styling guidance for every body.">
+<meta property="og:title" content="YukataGuide - Wear the Summer">
+<meta property="og:description" content="A curated database of Japanese yukata, obi, geta, and accessories. Sizing, materials, and styling guidance for every body.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://humancronadmin.github.io/yukata-guide/">
+<link rel="canonical" href="https://humancronadmin.github.io/yukata-guide/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<nav class="nav">
+  <a href="index.html" class="nav-brand">Yukata<span>Guide</span></a>
+  <div class="nav-links">
+    <a href="database.html">Database</a>
+    <a href="#guides">Guides</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+<section class="hero">
+  <h1>Wear the <em>Summer</em>.</h1>
+  <p>Your guide to Japanese yukata for every body. Real products, real sizing, real styling tips for festivals, fireworks, and ryokan stays.</p>
+  <a href="database.html" class="btn btn-primary">Browse the Database</a>
+</section>
+<section class="section">
+  <h2 class="section-title">The Problem</h2>
+  <div class="problem-grid" id="problems"></div>
+</section>
+<section class="section" style="background:var(--dark);color:#FFF;max-width:none;padding:48px 16px">
+  <div class="stats-row" id="stats"></div>
+</section>
+<section class="section" style="text-align:center">
+  <h2 class="section-title">Ready to Wear the Summer?</h2>
+  <p style="color:var(--muted);margin-bottom:24px;max-width:480px;margin-left:auto;margin-right:auto">Filter by category, gender, material, and price. Every listing includes sizing, styling tips, and expert notes.</p>
+  <a href="database.html" class="btn btn-primary">Explore the Database</a>
+</section>
+<footer class="footer" id="about">
+  <p>YukataGuide is an open-source project. Wear the summer. Find your yukata.</p>
+  <p style="margin-top:8px"><a href="https://github.com/humancronadmin">GitHub</a></p>
+</footer>
+<script>
+const problems=[
+  {icon:"\uD83D\uDCCF",title:"Sizing is completely different from Western clothes",desc:"Japanese sizing uses body height and hip measurements, not S/M/L. Sleeve length and hem fall matter more than chest size."},
+  {icon:"\uD83E\uDDF5",title:"Can't tell quality cotton from polyester online",desc:"A breathable cotton yukata and a shiny polyester one look identical in photos. Material determines comfort in humid summers."},
+  {icon:"\uD83C\uDF80",title:"Obi tying and coordination are intimidating",desc:"Which obi goes with which yukata? How do you tie it? Set bundles and pre-tied obi solve this for beginners."}
+];
+const stats=[
+  {num:"30+",label:"Yukata & Accessories"},
+  {num:"Traditional to Modern",label:"Style Range"},
+  {num:"All Sizes Covered",label:"S to BL"}
+];
+document.getElementById("problems").innerHTML=problems.map(p=>`<div class="problem-card"><div class="icon">${p.icon}</div><h3>${p.title}</h3><p>${p.desc}</p></div>`).join("");
+document.getElementById("stats").innerHTML=stats.map(s=>`<div class="stat"><div class="num">${s.num}</div><div class="label">${s.label}</div></div>`).join("");
+</script>
+</body>
+</html>
