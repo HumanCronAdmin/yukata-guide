@@ -22,47 +22,58 @@
 </head>
 <body>
 <nav class="nav">
-  <a href="index.html" class="nav-brand">Yukata<span>Guide</span></a>
-  <div class="nav-links">
-    <a href="database.html">Database</a>
-    <a href="#guides">Guides</a>
-    <a href="#about">About</a>
-  </div>
+ <a href="index.html" class="nav-brand">Yukata<span>Guide</span></a>
+ <div class="nav-links">
+ <a href="database.html">Database</a>
+ <a href="#guides">Guides</a>
+ <a href="#about">About</a>
+ </div>
 </nav>
 <section class="hero">
-  <h1>Wear the <em>Summer</em>.</h1>
-  <p>Your guide to Japanese yukata for every body. Real products, real sizing, real styling tips for festivals, fireworks, and ryokan stays.</p>
-  <a href="database.html" class="btn btn-primary">Browse the Database</a>
+ <h1>Wear the <em>Summer</em>.</h1>
+ <p>Your guide to Japanese yukata for every body. Real products, real sizing, real styling tips for festivals, fireworks, and ryokan stays.</p>
+ <a href="database.html" class="btn btn-primary">Browse the Database</a>
 </section>
 <section class="section">
-  <h2 class="section-title">The Problem</h2>
-  <div class="problem-grid" id="problems"></div>
+ <h2 class="section-title">The Problem</h2>
+ <div class="problem-grid" id="problems"></div>
 </section>
 <section class="section" style="background:var(--dark);color:#FFF;max-width:none;padding:48px 16px">
-  <div class="stats-row" id="stats"></div>
+ <div class="stats-row" id="stats"></div>
+</section>
+<section class="section" id="guides">
+ <h2 class="section-title">Guides</h2>
+ <div class="guide-cards" id="guideCards"></div>
 </section>
 <section class="section" style="text-align:center">
-  <h2 class="section-title">Ready to Wear the Summer?</h2>
-  <p style="color:var(--muted);margin-bottom:24px;max-width:480px;margin-left:auto;margin-right:auto">Filter by category, gender, material, and price. Every listing includes sizing, styling tips, and expert notes.</p>
-  <a href="database.html" class="btn btn-primary">Explore the Database</a>
+ <h2 class="section-title">Ready to Wear the Summer?</h2>
+ <p style="color:var(--muted);margin-bottom:24px;max-width:480px;margin-left:auto;margin-right:auto">Filter by category, gender, material, and price. Every listing includes sizing, styling tips, and expert notes.</p>
+ <a href="database.html" class="btn btn-primary">Explore the Database</a>
 </section>
 <footer class="footer" id="about">
-  <p>YukataGuide is an open-source project. Wear the summer. Find your yukata.</p>
-  <p style="margin-top:8px"><a href="https://github.com/humancronadmin">GitHub</a></p>
+ <p>YukataGuide is an open-source project. Wear the summer. Find your yukata.</p>
+ <p style="margin-top:8px"><a href="https://github.com/humancronadmin">GitHub</a></p>
 </footer>
 <script>
 const problems=[
-  {icon:"\uD83D\uDCCF",title:"Sizing is completely different from Western clothes",desc:"Japanese sizing uses body height and hip measurements, not S/M/L. Sleeve length and hem fall matter more than chest size."},
-  {icon:"\uD83E\uDDF5",title:"Can't tell quality cotton from polyester online",desc:"A breathable cotton yukata and a shiny polyester one look identical in photos. Material determines comfort in humid summers."},
-  {icon:"\uD83C\uDF80",title:"Obi tying and coordination are intimidating",desc:"Which obi goes with which yukata? How do you tie it? Set bundles and pre-tied obi solve this for beginners."}
+ {icon:"\uD83D\uDCCF",title:"Sizing is completely different from Western clothes",desc:"Japanese sizing uses body height and hip measurements, not S/M/L. Sleeve length and hem fall matter more than chest size."},
+ {icon:"\uD83E\uDDF5",title:"Can't tell quality cotton from polyester online",desc:"A breathable cotton yukata and a shiny polyester one look identical in photos. Material determines comfort in humid summers."},
+ {icon:"\uD83C\uDF80",title:"Obi tying and coordination are intimidating",desc:"Which obi goes with which yukata? How do you tie it? Set bundles and pre-tied obi solve this for beginners."}
 ];
 const stats=[
-  {num:"30+",label:"Yukata & Accessories"},
-  {num:"Traditional to Modern",label:"Style Range"},
-  {num:"All Sizes Covered",label:"S to BL"}
+ {num:"30+",label:"Yukata & Accessories"},
+ {num:"Traditional to Modern",label:"Style Range"},
+ {num:"All Sizes Covered",label:"S to BL"}
 ];
 document.getElementById("problems").innerHTML=problems.map(p=>`<div class="problem-card"><div class="icon">${p.icon}</div><h3>${p.title}</h3><p>${p.desc}</p></div>`).join("");
 document.getElementById("stats").innerHTML=stats.map(s=>`<div class="stat"><div class="num">${s.num}</div><div class="label">${s.label}</div></div>`).join("");
+</script>
+<script src="data/guides.js"></script>
+<script>
+if(typeof guides!=="undefined"){
+ const gc=document.getElementById("guideCards");
+ if(gc)gc.innerHTML=guides.map(g=>`<a href="guide.html?id=${g.id}" class="guide-card"><span class="badge badge-cat">${g.category}</span><h3>${g.title}</h3><p>${g.meta_description}</p></a>`).join("");
+}
 </script>
 </body>
 </html>

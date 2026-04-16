@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guide - YukataGuide</title>
+<meta name="description" content="Yukata guides for foreigners — how to wear, sizing, and more.">
+<meta property="og:title" content="YukataGuide">
+<meta property="og:description" content="Practical yukata guides for foreigners in Japan.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://humancronadmin.github.io/yukata-guide/guide.html">
+<link rel="canonical" href="https://humancronadmin.github.io/yukata-guide/guide.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MXKH7PSKC2"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-MXKH7PSKC2");</script>
+<script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window,document,"clarity","script","wa1jxs6bmh");</script>
+</head>
+<body>
+<nav class="nav">
+ <a href="index.html" class="nav-brand">Yukata<span>Guide</span></a>
+ <div class="nav-links">
+ <a href="database.html">Database</a>
+ <a href="index.html#guides">Guides</a>
+ <a href="index.html#about">About</a>
+ </div>
+</nav>
+<article class="guide-container" id="guideContent">
+ <div class="guide-loading">Loading guide...</div>
+</article>
+<footer class="footer" id="about">
+ <p>YukataGuide is an open-source project. <a href="https://github.com/humancronadmin">GitHub</a></p>
+</footer>
+<script src="data/guides.js"></script>
+<script>
+(()=>{
+const TAG="japantool-20";
+const id=new URLSearchParams(location.search).get("id");
+const g=typeof guides!=="undefined"&&guides.find(a=>a.id===id);
+const el=document.getElementById("guideContent");
+
+if(!g){el.innerHTML=`<div class="guide-hero"><h1>Guide Not Found</h1><p>Back to <a href="index.html">Home</a></p></div>`;return;}
+
+document.title=g.title+" | YukataGuide";
+const dm=document.querySelector('meta[name="description"]');if(dm)dm.content=g.meta_description;
+const ot=document.querySelector('meta[property="og:title"]');if(ot)ot.content=g.title;
+const od=document.querySelector('meta[property="og:description"]');if(od)od.content=g.meta_description;
+const cu=document.querySelector('link[rel="canonical"]');if(cu)cu.href="https://humancronadmin.github.io/yukata-guide/guide.html?id="+g.id;
+
+let html=`<div class="guide-hero"><span class="guide-cat">${g.category}</span><h1>${g.title}</h1></div>`;
+html+=`<div class="guide-body">`;
+html+=`<div class="guide-intro">${esc(g.intro)}</div>`;
+
+g.sections.forEach(s=>{
+ html+=`<section class="guide-section"><h2>${s.heading}</h2>`;
+ html+=`<div class="guide-text">${esc(s.content)}</div>`;
+ if(s.steps){html+=`<ol class="guide-steps">`;s.steps.forEach(st=>html+=`<li>${esc(st)}</li>`);html+=`</ol>`;}
+ if(s.comparison_table){
+ const t=s.comparison_table;
+ html+=`<div class="table-wrap"><table class="guide-table"><thead><tr>`;
+ t.headers.forEach(h=>html+=`<th>${h}</th>`);
+ html+=`</tr></thead><tbody>`;
+ t.rows.forEach(r=>{html+=`<tr>`;const cells=Array.isArray(r)?r:t.headers.map(h=>r[h]||"");cells.forEach(c=>html+=`<td>${c}</td>`);html+=`</tr>`;});
+ html+=`</tbody></table></div>`;
+ }
+ if(s.size_chart){
+ const t=s.size_chart;
+ html+=`<div class="table-wrap"><table class="guide-table"><thead><tr>`;
+ t.headers.forEach(h=>html+=`<th>${h}</th>`);
+ html+=`</tr></thead><tbody>`;
+ t.rows.forEach(r=>{html+=`<tr>`;const cells=Array.isArray(r)?r:t.headers.map(h=>r[h]||"");cells.forEach(c=>html+=`<td>${c}</td>`);html+=`</tr>`;});
+ html+=`</tbody></table></div>`;
+ }
+ if(s.measurements){
+ html+=`<div class="measure-cards">`;
+ s.measurements.forEach(m=>{
+ html+=`<div class="measure-card"><h3>${m.name}</h3><p class="m-en">${m.english}</p>`;
+ html+=`<p><strong>How:</strong> ${m.how}</p><p><strong>Why:</strong> ${m.why}</p></div>`;
+ });
+ html+=`</div>`;
+ }
+ if(s.products){
+ html+=`<div class="product-recs">`;
+ s.products.forEach(p=>{
+ const url=`https://www.amazon.co.jp/s?k=${encodeURIComponent(p.search_query)}&tag=${TAG}`;
+ html+=`<div class="rec-card"><h4>${p.name}</h4><p>${p.description}</p>`;
+ html+=`<a href="${url}" target="_blank" rel="noopener noreferrer" class="amazon-link">Find on Amazon JP</a></div>`;
+ });
+ html+=`</div>`;
+ }
+ html+=`</section>`;
+});
+
+if(g.faq&&g.faq.length){
+ html+=`<section class="guide-section guide-faq"><h2>Frequently Asked Questions</h2>`;
+ g.faq.forEach(f=>html+=`<details class="faq-item"><summary>${f.q}</summary><p>${f.a}</p></details>`);
+ html+=`</section>`;
+}
+
+html+=`<div class="guide-nav-bottom"><a href="index.html#guides" class="btn btn-primary">Browse All Guides</a> <a href="database.html" class="btn btn-secondary">Explore Database</a></div>`;
+html+=`</div>`;
+
+el.innerHTML=html;
+
+// Schema markup
+const schema={"@context":"https://schema.org","@type":"Article","headline":g.title,"description":g.meta_description,"author":{"@type":"Organization","name":"YukataGuide"},"publisher":{"@type":"Organization","name":"YukataGuide"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://humancronadmin.github.io/yukata-guide/guide.html?id="+g.id}};
+if(g.faq){schema["@type"]="Article";const faq={"@context":"https://schema.org","@type":"FAQPage","mainEntity":g.faq.map(f=>({"@type":"Question","name":f.q,"acceptedAnswer":{"@type":"Answer","text":f.a}}))};addLD(faq);}
+addLD(schema);
+
+function addLD(d){const s=document.createElement("script");s.type="application/ld+json";s.textContent=JSON.stringify(d);document.head.appendChild(s);}
+function esc(t){return(t||"").replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>").replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/\*(.+?)\*/g,"<em>$1</em>");}
+})();
+</script>
+</body>
+</html>
