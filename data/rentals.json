@@ -1,0 +1,44 @@
+{
+  "shops": [
+    {
+      "name": "Kyoto Kimono Rental Wargo",
+      "name_ja": "着物レンタルわごころ",
+      "city": "Kyoto",
+      "area": "Gion",
+      "website": "https://kyotokimonorental.com/",
+      "price_from_jpy": 3800,
+      "price_to_jpy": 8800,
+      "english_support": true,
+      "online_booking": true,
+      "specialty": "Wide selection of modern and traditional kimono with English-speaking staff.",
+      "verified": true
+    },
+    {
+      "name": "Kyoto Kimono Rental Yumeyakata",
+      "name_ja": "夢館",
+      "city": "Kyoto",
+      "area": "Gion",
+      "website": "https://www.yumeyakata.com/",
+      "price_from_jpy": 4000,
+      "price_to_jpy": 10000,
+      "english_support": true,
+      "online_booking": true,
+      "specialty": "Extensive kimono collection and professional hair styling services.",
+      "verified": true
+    },
+    {
+      "name": "Kyoto Kimono Rental Koto",
+      "name_ja": "こと",
+      "city": "Kyoto",
+      "area": "Kiyomizu-dera",
+      "website": "https://www.kyoto-koto.com/",
+      "price_from_jpy": 3500,
+      "price_to_jpy": 7000,
+      "english_support": true,
+      "online_booking": true,
+      "specialty": "Affordable and stylish kimono rentals near Kiyomizu-dera.",
+      "verified": true
+    }
+  ],
+  "source": "gemini_research_20260424"
+}

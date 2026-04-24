@@ -1,0 +1,287 @@
+{
+  "existing_articles": [
+    {
+      "priority": 0,
+      "keyword": "how to wear yukata",
+      "status": "done",
+      "id": "how-to-wear"
+    },
+    {
+      "priority": 0,
+      "keyword": "yukata vs kimono difference",
+      "status": "done",
+      "id": "yukata-vs-kimono"
+    },
+    {
+      "priority": 0,
+      "keyword": "yukata sizing guide",
+      "status": "done",
+      "id": "sizing-guide"
+    }
+  ],
+  "pending_topics": [
+    {
+      "priority": 2,
+      "keyword": "yukata for men",
+      "volume": "5K-10K",
+      "intent": "Buying/Learning",
+      "category": "Styling/Shopping",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 3,
+      "keyword": "yukata accessories",
+      "volume": "2K-5K",
+      "intent": "Buying/Learning",
+      "category": "Accessories",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 4,
+      "keyword": "yukata rental Kyoto",
+      "volume": "1K-2K",
+      "intent": "Practical/Buying",
+      "category": "Shopping/Practical",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 6,
+      "keyword": "yukata for summer festivals",
+      "volume": "1K-2K",
+      "intent": "Cultural/Practical",
+      "category": "Festivals/Culture",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 7,
+      "keyword": "how to tie yukata obi",
+      "volume": "1K-2K",
+      "intent": "Practical/Learning",
+      "category": "Styling",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 9,
+      "keyword": "yukata hair styles",
+      "volume": "500-1K",
+      "intent": "Styling/Learning",
+      "category": "Styling",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 10,
+      "keyword": "yukata etiquette",
+      "volume": "500-1K",
+      "intent": "Cultural/Learning",
+      "category": "Culture",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 11,
+      "keyword": "where to buy yukata in Tokyo",
+      "volume": "500-1K",
+      "intent": "Buying/Practical",
+      "category": "Shopping",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 15,
+      "keyword": "yukata for foreigners",
+      "volume": "200-500",
+      "intent": "Practical/Learning",
+      "category": "Practical",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 18,
+      "keyword": "yukata for Bon Odori",
+      "volume": "200-500",
+      "intent": "Festivals/Cultural",
+      "category": "Festivals",
+      "status": "pending",
+      "priority_tier": 1
+    },
+    {
+      "priority": 8,
+      "keyword": "yukata vs jinbei",
+      "volume": "500-1K",
+      "intent": "Learning/Cultural",
+      "category": "Basics/Culture",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 12,
+      "keyword": "yukata for kids",
+      "volume": "500-1K",
+      "intent": "Buying/Learning",
+      "category": "Shopping/Basics",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 21,
+      "keyword": "yukata vs samue",
+      "volume": "200-500",
+      "intent": "Learning/Cultural",
+      "category": "Basics/Culture",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 22,
+      "keyword": "yukata for plus size",
+      "volume": "200-500",
+      "intent": "Buying/Practical",
+      "category": "Shopping",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 23,
+      "keyword": "yukata for couples",
+      "volume": "200-500",
+      "intent": "Styling/Buying",
+      "category": "Styling/Shopping",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 24,
+      "keyword": "yukata and geta",
+      "volume": "200-500",
+      "intent": "Accessories/Learning",
+      "category": "Accessories",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 25,
+      "keyword": "yukata for travel",
+      "volume": "200-500",
+      "intent": "Practical/Learning",
+      "category": "Practical",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 27,
+      "keyword": "yukata for formal occasions",
+      "volume": "200-500",
+      "intent": "Cultural/Learning",
+      "category": "Culture",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 28,
+      "keyword": "yukata vs happi",
+      "volume": "200-500",
+      "intent": "Learning/Cultural",
+      "category": "Basics/Culture",
+      "status": "pending",
+      "priority_tier": 2
+    },
+    {
+      "priority": 5,
+      "keyword": "yukata patterns meaning",
+      "volume": "1K-2K",
+      "intent": "Cultural/Learning",
+      "category": "Culture/Basics",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 13,
+      "keyword": "history of yukata",
+      "volume": "500-1K",
+      "intent": "Cultural/Learning",
+      "category": "Culture",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 14,
+      "keyword": "yukata fabric types",
+      "volume": "200-500",
+      "intent": "Learning/Buying",
+      "category": "Basics/Shopping",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 16,
+      "keyword": "yukata price range",
+      "volume": "200-500",
+      "intent": "Buying/Practical",
+      "category": "Shopping",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 17,
+      "keyword": "yukata colors meaning",
+      "volume": "200-500",
+      "intent": "Cultural/Learning",
+      "category": "Culture",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 19,
+      "keyword": "modern yukata styles",
+      "volume": "200-500",
+      "intent": "Styling/Learning",
+      "category": "Styling",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 20,
+      "keyword": "how to wash yukata",
+      "volume": "200-500",
+      "intent": "Care/Practical",
+      "category": "Care",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 26,
+      "keyword": "yukata meaning",
+      "volume": "200-500",
+      "intent": "Cultural/Learning",
+      "category": "Basics/Culture",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 29,
+      "keyword": "yukata for different seasons",
+      "volume": "200-500",
+      "intent": "Cultural/Learning",
+      "category": "Culture",
+      "status": "pending",
+      "priority_tier": 3
+    },
+    {
+      "priority": 30,
+      "keyword": "yukata storage tips",
+      "volume": "200-500",
+      "intent": "Care/Practical",
+      "category": "Care",
+      "status": "pending",
+      "priority_tier": 3
+    }
+  ],
+  "source": "output/yukata_master_strategy.md",
+  "generated": "2026-04-24"
+}

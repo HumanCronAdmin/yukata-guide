@@ -424,5 +424,124 @@ const guides = [
     "a": "No, yukata are not only for women. Men can also wear yukata, and they are a popular choice for summer festivals and events. Men's yukata tend to be simpler in design and are often worn with a more relaxed, casual fit."
    }
   ]
+ },
+ {
+  "id": "yukata-for-men",
+  "title": "Men's Yukata: A Complete Guide to Style and Wearing",
+  "meta_description": "Discover the world of men's yukata. This guide covers styling options, how to wear a yukata, obi tying techniques, and essential tips for a perfect summer look.",
+  "keyword": "yukata for men",
+  "category": "styling",
+  "intro": "Japan's summer months, from June through August, are often celebrated with vibrant festivals and fireworks displays, where the sight of people in traditional yukata (浴衣) is commonplace. For men, the yukata offers a comfortable yet stylish way to engage with these cultural events, providing a connection to tradition while embracing the warmth of the season. Understanding the nuances of men's yukata can enhance the experience of attending summer gatherings.\n\nForeign visitors and residents may find themselves drawn to the aesthetic of the yukata but might feel uncertain about how to select or wear one appropriately. Japanese society generally welcomes and appreciates efforts to participate in cultural traditions. Men's yukata are designed for ease of wear and comfort, making them accessible for those new to Japanese attire. This guide aims to demystify the process, offering clear information for a confident and enjoyable yukata experience.\n\nThis guide covers essential aspects of men's yukata, including choosing the right style, understanding the components of the ensemble, and mastering the art of tying the obi (帯). Practical advice on care and common questions are also addressed. The intention is to equip individuals with the knowledge needed to select and wear a men's yukata with confidence, contributing to memorable summer occasions.",
+  "sections": [
+   {
+    "heading": "Choosing Your Men's Yukata",
+    "content": "Selecting a men's yukata involves considering fabric, color, pattern, and occasion. The goal is to find a garment that is both comfortable and aesthetically pleasing, reflecting personal style while respecting tradition. Modern options offer a range of choices for various preferences.\n\n*   **Fabric**: Cotton is the most common and practical fabric for men's yukata due to its breathability and comfort in warm weather. Linen blends can also offer a slightly crisper feel. The weight and weave of the fabric can influence its drape and overall appearance.\n*   **Color and Pattern**: Traditional choices for men's yukata often lean towards darker, more subdued colors such as navy blue, black, grey, or deep green. These colors are considered classic and versatile. Patterns tend to be geometric, abstract, or feature motifs like waves, dragons, or traditional Japanese designs. Lighter colors and bolder patterns are also available for a more contemporary look.\n*   **Occasion**: While yukata are generally casual, the specific design can lend itself to different settings. A simple, dark-colored yukata with a subtle pattern is suitable for most summer festivals and casual outings. More elaborate patterns or brighter colors might be chosen for specific events or personal preference, though they remain less formal than a kimono.\n*   **Fit**: Men's yukata are typically sized according to height. The hem should ideally fall to the ankles when worn without an ohashori (おはしょり). Sleeve length (裄丈, yukitake) should reach the wrist. While width is less critical due to the overlapping wrap style, ensuring the garment is not excessively large or small is important for comfort and appearance.",
+    "products": [
+     {
+      "name": "Classic Navy Men's Yukata",
+      "description": "A traditional navy blue cotton yukata, perfect for festivals and summer events. Features a subtle geometric pattern.",
+      "search_query": "メンズ 浴衣 紺色 無地"
+     },
+     {
+      "name": "Modern Grey Men's Yukata Set",
+      "description": "A stylish grey yukata made from a breathable cotton blend, often sold with a matching obi. Suitable for contemporary tastes.",
+      "search_query": "メンズ 浴衣 グレー セット"
+     },
+     {
+      "name": "Black Men's Yukata with Dragon Motif",
+      "description": "A striking black yukata featuring an embroidered dragon design, offering a bolder statement for special occasions.",
+      "search_query": "メンズ 浴衣 黒 龍 柄"
+     }
+    ]
+   },
+   {
+    "heading": "Essential Components of a Men's Yukata Ensemble",
+    "content": "A complete men's yukata ensemble consists of a few key items that work together to create a polished and traditional look. While some items are optional, understanding their purpose is beneficial for proper dressing and comfort.\n\n*   **Yukata (浴衣)**: The primary garment itself, a lightweight, unlined cotton robe. It is the foundation of the outfit.\n*   **Koshihimo (腰紐)**: Thin fabric ties, usually made of cotton or silk. At least one, and sometimes two, are used to secure the yukata at the waist before the obi is applied. They help maintain the garment's shape and prevent it from shifting.\n*   **Obi (帯)**: The sash that cinches the yukata. For men, the obi is typically narrower and tied in a simpler knot than women's obi. Common types include the standard cotton obi or a softer heko-obi (兵児帯) for a more relaxed feel.\n*   **Undergarments**: A simple undershirt (like a t-shirt or a traditional hadajuban, 肌襦袢) and underwear are worn beneath the yukata. This layer helps absorb sweat and provides a smooth base.\n*   **Geta (下駄)**: Traditional wooden sandals worn with yukata. They are characterized by their raised wooden base and thong straps. Choosing a comfortable pair is important for walking.",
+    "products": [
+     {
+      "name": "Men's Cotton Obi",
+      "description": "A standard obi for men, typically made of cotton, designed to be tied securely. Available in various colors.",
+      "search_query": "メンズ 浴衣 帯"
+     },
+     {
+      "name": "Heko-obi (兵児帯) for Men",
+      "description": "A soft, unstructured obi that is easier to tie and offers a more casual, relaxed look. Ideal for beginners.",
+      "search_query": "メンズ 兵児帯"
+     },
+     {
+      "name": "Koshihimo Waist Ties (2-pack)",
+      "description": "Essential for securing the yukata before tying the obi. These thin ties ensure a neat fit.",
+      "search_query": "浴衣 腰紐 メンズ"
+     },
+     {
+      "name": "Men's Geta Sandals",
+      "description": "Traditional wooden sandals for men, available in various styles and sizes. Essential for completing the yukata look.",
+      "search_query": "メンズ 下駄 浴衣"
+     }
+    ]
+   },
+   {
+    "heading": "How to Wear a Men's Yukata: Step-by-Step",
+    "content": "Wearing a men's yukata is a straightforward process, focusing on achieving a clean, neat appearance. The absence of an ohashori (おはしょり) simplifies the dressing, with the hem falling to the ankles. Attention to the wrap and obi tie ensures a proper fit.\n\n*   **Step 1: Wear Undergarments**\nBegin by putting on your underwear and a light undershirt. This layer helps absorb perspiration and provides a smooth surface for the yukata.\n\n*   **Step 2: Don the Yukata**\nSlip the yukata on, ensuring the back seam aligns with the spine. The sleeves should fall to the wrists. The hem should hang down to the ankles. The yukata is worn like a robe.\n\n*   **Step 3: Wrap the Right Panel**\nTake the right panel of the yukata and wrap it across your body, so its edge reaches your left hip. Hold this panel in place.\n\n*   **Step 4: Wrap the Left Panel**\nBring the left panel over the right panel, ensuring it completely covers the right side. The correct method is 右前 (migi-mae), meaning the right panel is against the body first, with the left panel on top. This rule is central — wearing the left panel first (左前 hidari-mae) signifies funeral attire.\n\n*   **Step 5: Secure with Koshihimo (腰紐)**\nWrap a koshihimo (腰紐) around your waist. For men, this is typically positioned around the hip bones or just below the navel. Tie it snugly with a simple knot at the front, slightly off-center, and tuck in the ends. This secures the yukata and ensures it remains smooth.\n\n*   **Step 6: Tie the Obi (帯) - Kainokuchi Musubi (貝の口結び)**\nThe kainokuchi musubi (貝の口結び) is a common and practical knot for men's obi.\n a. Find the center of the obi and place it against your stomach. Let one end hang down about 40-50 cm.\n b. Wrap the longer end around your waist twice, over the koshihimo, ensuring it is snug and flat. The obi should sit on your hips.\n c. Bring both ends to the front. Place the shorter end (A) on top of the longer end (B).\n d. Tie a single knot: pass A over B, then under B, and pull tight.\n e. Fold the longer end (B) in half lengthwise, then fold it upwards.\n f. Take the shorter end (A) and wrap it around the folded B, moving downwards, then pass it through the loop created.\n g. Gently pull both ends to tighten and flatten the knot. The resulting knot resembles a clam shell (kainokuchi).\n h. Carefully rotate the knot to the center of your back, ensuring it lies flat and comfortably."
+   },
+   {
+    "heading": "Styling and Accessories for Men's Yukata",
+    "content": "While men's yukata are generally simpler in styling than women's, thoughtful choices in accessories can enhance the overall look. The aim is to complement the yukata without overpowering it, maintaining a sense of understated elegance.\n\n*   **Obi Choice**: The obi (帯) is the most prominent accessory. A standard cotton obi offers a classic look, while a heko-obi (兵児帯) provides a softer, more relaxed aesthetic. The color of the obi can be chosen to contrast or harmonize with the yukata. Darker obi are traditional, but lighter or patterned options can add a modern touch.\n*   **Footwear (Geta, 下駄)**: Geta (下駄) are the traditional footwear. They come in various styles, from simple to more ornate. The height of the geta can slightly alter the wearer's posture and the way the yukata drapes. Ensuring the geta straps (鼻緒, hanao) are comfortable is important for extended wear.\n*   **Optional Accessories**: While not strictly necessary, some men choose to wear a simple fan (扇子, sensu) tucked into their obi. A small drawstring bag (巾着, kinchaku) can be used to carry essentials like a phone or wallet, though it is less common for men than for women.\n*   **Hair and Grooming**: Hair is typically kept neat and tidy. For a more traditional look, short hair is common. Clean grooming complements the overall presentation.",
+    "products": [
+     {
+      "name": "Men's Fan (Sensu)",
+      "description": "A traditional folding fan, perfect for keeping cool and as a subtle accessory tucked into the obi.",
+      "search_query": "メンズ 扇子 浴衣"
+     },
+     {
+      "name": "Simple Kinchaku Bag",
+      "description": "A minimalist drawstring bag for carrying small personal items, offering practicality without detracting from the yukata.",
+      "search_query": "メンズ 巾着袋 浴衣"
+     }
+    ]
+   },
+   {
+    "heading": "Care and Maintenance",
+    "content": "Proper care ensures that a men's yukata remains in good condition for many summers. Most modern yukata are made from materials that allow for relatively simple cleaning. Following recommended guidelines helps preserve the fabric and color.\n\n*   **Washing**: Many cotton yukata can be hand-washed or machine-washed on a delicate cycle with cold water. It is advisable to consult the care label for specific instructions. Using a laundry net (洗濯ネット, sentaku netto) is recommended to protect the fabric. Avoid harsh detergents or bleach.\n*   **Drying**: After washing, hang the yukata to dry in the shade. Direct sunlight can cause colors to fade over time. Gently smooth out any wrinkles while the fabric is still damp. Avoid using a machine dryer, as high heat can cause shrinkage or damage.\n*   **Ironing**: If ironing is necessary, use a low to medium heat setting. Iron the yukata while it is slightly damp or use a pressing cloth to protect the fabric. Pay attention to seams and the collar.\n*   **Storage**: Store the yukata folded neatly in a cool, dry place. Cedar chests are traditional for storing kimono and yukata, as cedar has natural insect-repelling properties. Ensure the garment is completely dry before storing to prevent mildew.",
+    "products": [
+     {
+      "name": "Laundry Net for Garments",
+      "description": "A mesh laundry bag to protect delicate clothing like yukata during machine washing.",
+      "search_query": "洗濯ネット 衣類用"
+     },
+     {
+      "name": "Fabric Steamer",
+      "description": "A handheld steamer can be useful for quickly removing wrinkles from yukata without direct ironing.",
+      "search_query": "衣類スチーマー"
+     }
+    ]
+   }
+  ],
+  "faq": [
+   {
+    "q": "Is it appropriate for men to wear yukata to summer festivals?",
+    "a": "Yes, it is very appropriate and common for men to wear yukata to summer festivals (祭り, matsuri) and fireworks displays (花火大会, hanabi taikai). Yukata are considered casual summer wear in Japan, and wearing one is a way to embrace the festive atmosphere and cultural tradition."
+   },
+   {
+    "q": "What is the correct way to tie a men's obi?",
+    "a": "The kainokuchi musubi (貝の口結び) is a popular and relatively simple knot for men's obi. It creates a flat, understated knot at the back. Other knots exist, but kainokuchi is a good starting point for beginners. The obi is typically tied around the hip bones or just below the navel."
+   },
+   {
+    "q": "Do men wear an ohashori (おはしょり) with their yukata?",
+    "a": "No, men's yukata are not worn with an ohashori (おはしょり), which is the decorative fold created at the waist for women's kimono and yukata. Men's yukata are designed to be worn at their full length, with the hem falling to the ankles."
+   },
+   {
+    "q": "Can I wear a t-shirt under my yukata?",
+    "a": "Yes, a simple t-shirt or an undershirt is perfectly acceptable to wear under a men's yukata. This layer helps absorb sweat and provides a smooth base for the garment, contributing to comfort, especially in warm weather."
+   },
+   {
+    "q": "Where can I buy a men's yukata?",
+    "a": "Men's yukata can be purchased at department stores (デパート, depāto), large clothing retailers, specialty kimono shops, and online marketplaces in Japan. Many stores offer seasonal selections during the summer months. Rental services are also available for specific events."
+   },
+   {
+    "q": "What is the difference between a men's yukata and a kimono?",
+    "a": "A yukata (浴衣) is a casual, unlined cotton garment for summer, while a kimono (着物) is a more formal, often silk, garment worn year-round for special occasions. Men's yukata are simpler to wear, typically without an ohashori, and are intended for informal summer events. Kimono are more elaborate, require more undergarments, and are worn for significant ceremonies."
+   }
+  ]
  }
 ];

@@ -141,3 +141,13 @@ img{max-width:100%;display:block}
   .section{padding:64px 24px}
   .filters{padding:16px 24px}
 }
+
+/* Related articles widget */
+.guide-related{margin-top:32px}
+.related-grid{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:640px){.related-grid{grid-template-columns:repeat(3,1fr)}}
+.related-card{display:block;background:#fff;border:1px solid #e8e8e8;border-radius:10px;padding:16px;text-decoration:none;color:inherit;transition:transform .15s}
+.related-card:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(0,0,0,.05)}
+.related-card h3{margin:6px 0;font-size:1rem;line-height:1.3}
+.related-card p{font-size:.82rem;color:#666;line-height:1.5;margin:0}
+.related-cat{display:inline-block;background:#f3f3f3;padding:2px 8px;border-radius:10px;font-size:.7rem;color:#555;text-transform:uppercase;letter-spacing:.5px}

@@ -21,6 +21,8 @@
  <a href="index.html" class="nav-brand">Yukata<span>Guide</span></a>
  <div class="nav-links">
  <a href="database.html">Database</a>
+ <a href="rentals.html">Rentals</a>
+ <a href="patterns.html">Patterns</a>
  <a href="index.html#guides">Guides</a>
  <a href="index.html#about">About</a>
  </div>
@@ -96,6 +98,22 @@ if(g.faq&&g.faq.length){
  g.faq.forEach(f=>html+=`<details class="faq-item"><summary>${f.q}</summary><p>${f.a}</p></details>`);
  html+=`</section>`;
 }
+
+// Related articles widget (shows up to 3 other guides in same category)
+const related = (typeof guides !== "undefined" ? guides : [])
+  .filter(a => a.id !== g.id)
+  .sort((a,b) => (a.category===g.category?0:1) - (b.category===g.category?0:1))
+  .slice(0, 3);
+if(related.length){
+ html+=`<section class="guide-section guide-related"><h2>Related Guides</h2><div class="related-grid">`;
+ related.forEach(r => {
+  html+=`<a class="related-card" href="guide.html?id=${r.id}"><span class="related-cat">${r.category}</span><h3>${r.title}</h3><p>${r.meta_description.slice(0,120)}...</p></a>`;
+ });
+ html+=`</div></section>`;
+}
+
+// Cross-promo: rentals + patterns
+html+=`<section class="guide-section" style="background:#faf7f3;padding:24px;border-radius:12px;margin-top:32px"><h2>Keep Exploring</h2><div style="display:grid;gap:12px;grid-template-columns:1fr 1fr"><a href="rentals.html" style="display:block;padding:16px;background:#fff;border-radius:8px;text-decoration:none;color:#333;border:1px solid #e8e8e8"><strong>Rental Shops →</strong><br><span style="font-size:.85rem;color:#666">Verified shops in Kyoto & Tokyo</span></a><a href="patterns.html" style="display:block;padding:16px;background:#fff;border-radius:8px;text-decoration:none;color:#333;border:1px solid #e8e8e8"><strong>Pattern Meanings →</strong><br><span style="font-size:.85rem;color:#666">20 traditional motifs explained</span></a></div></section>`;
 
 html+=`<div class="guide-nav-bottom"><a href="index.html#guides" class="btn btn-primary">Browse All Guides</a> <a href="database.html" class="btn btn-secondary">Explore Database</a></div>`;
 html+=`</div>`;

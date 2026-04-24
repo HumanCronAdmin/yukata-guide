@@ -1,0 +1,205 @@
+{
+  "patterns": [
+    {
+      "slug": "asanoha",
+      "name_romaji": "asanoha",
+      "name_kanji": "麻の葉",
+      "name_en": "Hemp Leaf",
+      "meaning": "The hemp leaf pattern is a traditional geometric design representing the growth and vitality of the hemp plant. It is believed to bring good health and ward off evil spirits, making it a popular motif for children's clothing and auspicious occasions.",
+      "best_for": "festivals / casual",
+      "season": "all",
+      "pair_with": "vibrant contrasting obi"
+    },
+    {
+      "slug": "sakura",
+      "name_romaji": "sakura",
+      "name_kanji": "桜",
+      "name_en": "Cherry Blossom",
+      "meaning": "Cherry blossoms symbolize the ephemeral beauty of life and the transient nature of existence. Their short blooming period is celebrated as a metaphor for the preciousness of each moment.",
+      "best_for": "festivals / casual / spring events",
+      "season": "spring",
+      "pair_with": "soft pastel or white obi"
+    },
+    {
+      "slug": "asagao",
+      "name_romaji": "asagao",
+      "name_kanji": "朝顔",
+      "name_en": "Morning Glory",
+      "meaning": "Morning glories are associated with the fleeting beauty of a single day, as they bloom in the morning and fade by evening. They are also seen as a symbol of love and affection.",
+      "best_for": "festivals / casual",
+      "season": "summer",
+      "pair_with": "cool blue or green obi"
+    },
+    {
+      "slug": "kingyo",
+      "name_romaji": "kingyo",
+      "name_kanji": "金魚",
+      "name_en": "Goldfish",
+      "meaning": "Goldfish are symbols of good fortune, prosperity, and abundance in Japanese culture. Their vibrant colors and graceful movements are often associated with joy and celebration.",
+      "best_for": "festivals / casual",
+      "season": "summer",
+      "pair_with": "bright red or gold obi"
+    },
+    {
+      "slug": "tsubaki",
+      "name_romaji": "tsubaki",
+      "name_kanji": "椿",
+      "name_en": "Camellia",
+      "meaning": "Camellias represent love, admiration, and perfection. However, they are also sometimes associated with a swift and decisive end due to the way their blossoms fall whole.",
+      "best_for": "festivals / casual / autumn events",
+      "season": "winter",
+      "pair_with": "deep red or black obi"
+    },
+    {
+      "slug": "shibori",
+      "name_romaji": "shibori",
+      "name_kanji": "絞り",
+      "name_en": "Tie-dye",
+      "meaning": "Shibori is a dyeing technique that creates unique, often abstract patterns through binding and folding fabric. It is appreciated for its artisanal quality and the individuality of each design.",
+      "best_for": "festivals / casual",
+      "season": "all",
+      "pair_with": "solid color obi matching a dominant shade"
+    },
+    {
+      "slug": "kikko",
+      "name_romaji": "kikko",
+      "name_kanji": "亀甲",
+      "name_en": "Tortoise Shell",
+      "meaning": "The hexagonal pattern of the tortoise shell symbolizes longevity, good luck, and protection. It is a geometric motif that conveys a sense of stability and endurance.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "elegant gold or silver obi"
+    },
+    {
+      "slug": "seigaiha",
+      "name_romaji": "seigaiha",
+      "name_kanji": "青海波",
+      "name_en": "Blue Wave",
+      "meaning": "The seigaiha pattern depicts overlapping waves, symbolizing peacefulness, good fortune, and the vastness of the ocean. It is often associated with a wish for smooth sailing and prosperity.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "deep blue or white obi"
+    },
+    {
+      "slug": "shippo",
+      "name_romaji": "shippo",
+      "name_kanji": "七宝",
+      "name_en": "Seven Treasures",
+      "meaning": "The shippo pattern, also known as the 'seven treasures' or 'enclosing circles', represents harmony, good luck, and the interconnectedness of all things. It is a geometric design symbolizing completeness and unity.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "harmonious complementary obi"
+    },
+    {
+      "slug": "kikkou",
+      "name_romaji": "kikkou",
+      "name_kanji": "亀甲",
+      "name_en": "Tortoise Shell (variant spelling)",
+      "meaning": "This is a variant spelling for the 'kikko' pattern, also representing the tortoise shell. It conveys longevity, good luck, and protection through its stable hexagonal design.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "elegant gold or silver obi"
+    },
+    {
+      "slug": "tombo",
+      "name_romaji": "tombo",
+      "name_kanji": "蜻蛉",
+      "name_en": "Dragonfly",
+      "meaning": "Dragonflies are symbols of courage, strength, and good luck in Japan. They are also associated with summer and are believed to bring victory.",
+      "best_for": "festivals / casual",
+      "season": "summer",
+      "pair_with": "bold contrasting obi"
+    },
+    {
+      "slug": "ume",
+      "name_romaji": "ume",
+      "name_kanji": "梅",
+      "name_en": "Plum Blossom",
+      "meaning": "Plum blossoms are the first flowers to bloom in late winter, symbolizing resilience, hope, and perseverance. They are also associated with beauty and good fortune.",
+      "best_for": "festivals / casual / winter events",
+      "season": "winter",
+      "pair_with": "soft pink or white obi"
+    },
+    {
+      "slug": "matsu",
+      "name_romaji": "matsu",
+      "name_kanji": "松",
+      "name_en": "Pine Tree",
+      "meaning": "Pine trees are symbols of longevity, steadfastness, and good fortune due to their evergreen nature. They are often depicted in traditional art as a representation of enduring strength and a wish for a long life.",
+      "best_for": "festivals / casual / formal / New Year",
+      "season": "all",
+      "pair_with": "classic black or deep green obi"
+    },
+    {
+      "slug": "take",
+      "name_romaji": "take",
+      "name_kanji": "竹",
+      "name_en": "Bamboo",
+      "meaning": "Bamboo symbolizes strength, flexibility, and resilience, as it can bend without breaking. It is also associated with good luck and prosperity.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "natural or earthy toned obi"
+    },
+    {
+      "slug": "kiku",
+      "name_romaji": "kiku",
+      "name_kanji": "菊",
+      "name_en": "Chrysanthemum",
+      "meaning": "Chrysanthemums are symbols of longevity, nobility, and rejuvenation. They are also associated with the imperial family and are a prominent motif in autumn.",
+      "best_for": "festivals / casual / autumn events",
+      "season": "autumn",
+      "pair_with": "rich jewel-toned obi"
+    },
+    {
+      "slug": "nami",
+      "name_romaji": "nami",
+      "name_kanji": "波",
+      "name_en": "Wave",
+      "meaning": "Waves symbolize the ebb and flow of life, as well as strength and perseverance. They can represent both calm and powerful forces of nature.",
+      "best_for": "festivals / casual",
+      "season": "all",
+      "pair_with": "contrasting or complementary obi"
+    },
+    {
+      "slug": "bara",
+      "name_romaji": "bara",
+      "name_kanji": "薔薇",
+      "name_en": "Rose",
+      "meaning": "While not as traditionally Japanese as other motifs, roses are increasingly popular and symbolize love, beauty, and passion. Their inclusion often adds a touch of Western elegance.",
+      "best_for": "festivals / casual / modern events",
+      "season": "all",
+      "pair_with": "elegant solid color obi"
+    },
+    {
+      "slug": "botan",
+      "name_romaji": "botan",
+      "name_kanji": "牡丹",
+      "name_en": "Peony",
+      "meaning": "Peonies are known as the 'king of flowers' and symbolize wealth, honor, and prosperity. They are often associated with romance and a happy marriage.",
+      "best_for": "festivals / casual / formal",
+      "season": "spring",
+      "pair_with": "rich, luxurious obi"
+    },
+    {
+      "slug": "tachibana",
+      "name_romaji": "tachibana",
+      "name_kanji": "橘",
+      "name_en": "Mandarin Orange Blossom",
+      "meaning": "The tachibana, a type of mandarin orange, symbolizes longevity and immortality. Its evergreen leaves and year-round fruit represent enduring life and prosperity.",
+      "best_for": "festivals / casual / formal",
+      "season": "all",
+      "pair_with": "classic or muted obi"
+    },
+    {
+      "slug": "mizutama",
+      "name_romaji": "mizutama",
+      "name_kanji": "水玉",
+      "name_en": "Water Droplet / Polka Dot",
+      "meaning": "Mizutama, meaning 'water droplets', is the Japanese term for polka dots. This playful and cheerful pattern is often associated with a lighthearted and youthful spirit.",
+      "best_for": "festivals / casual",
+      "season": "all",
+      "pair_with": "contrasting solid color obi"
+    }
+  ],
+  "source": "gemini_research_20260424"
+}
